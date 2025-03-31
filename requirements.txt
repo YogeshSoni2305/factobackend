@@ -1,7 +1,7 @@
 google-generativeai
 groq
 python-dotenv
-tavily
+tavily-python
 llama-index
 flask
 gunicorn
