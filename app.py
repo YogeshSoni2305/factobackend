@@ -14,7 +14,7 @@ def process_request():
     # Process text and files
     markdown_result, searches = processor(text, files)
     
-    return jsonify({"result": markdown_result, "sources": searches})
+    return jsonify({"result": markdown_result, "sources": searches[::-1]})
 
 if __name__ == '__main__':
     app.run(debug=True)
