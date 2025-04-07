@@ -6,7 +6,7 @@ load_dotenv()
 # API_KEY = os.getenv("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")
 
 def getTavilySearchResults(query: str):
-    tavily_client = TavilyClient(api_key="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")
+    tavily_client = TavilyClient(api_key="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")
     response = tavily_client.search(query, search_depth="advanced")
     print(response)
 
